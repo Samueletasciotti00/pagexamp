@@ -35,13 +35,11 @@
 <script>
 
 import Form from "../components/Servizi/Form.vue";
-import Evento from "../components/Servizi/Evento.vue";
 
 export default {
   name: "Servizi",
   components: {
     Form,
-    Evento,
   },
 };
 </script>

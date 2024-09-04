@@ -12,6 +12,8 @@ export default {
 </template>
 
 <style scoped>
+
+/* Default settings */
 #container {
   width: 100%;
   height: 80vh;
@@ -19,18 +21,18 @@ export default {
   overflow: hidden;
 }
 
+/* Immagine A tutto schermo */
 #container img {
   width: 100%;
   height: 100%;
-
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 }
 
+/* Opacità sull'img */
 .dark {
-  
   width: 100%;
   height: 100vh;
   position: absolute;

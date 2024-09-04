@@ -54,14 +54,15 @@ export default {
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Permette agli elementi di andare su più righe se necessario */
+    flex-wrap: wrap; 
     padding: 20px;
 }
 
 /* Immagine */
 img {
     width: 40%;
-    height: auto; /* Mantiene il rapporto d'aspetto */
+    height: auto;
+    border-radius: 35px;
 }
 
 /* Footer List */
@@ -78,10 +79,14 @@ ul li {
     list-style: none;
 }
 
+h3{
+    color: #965731;
+    margin-bottom: 15px;
+}
 /* Media Queries per tablet e mobile */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column; /* Dispone gli elementi in colonna */
+        flex-direction: column;
         align-items: center;
     }
 
@@ -99,7 +104,7 @@ ul li {
 
 @media (max-width: 480px) {
     img {
-        width: 80%; /* Ancora più piccola per schermi molto piccoli */
+        width: 80%; 
     }
 
     .ft-list {
@@ -107,7 +112,7 @@ ul li {
         margin-bottom: 15px;
     }
 
-    /* Modifica la dimensione dei testi per renderli leggibili */
+   
     h3 {
         font-size: 18px;
     }

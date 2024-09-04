@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-// Template di HTML
+
 <template>
   <div id="nav-bar">
     <!-- Logo -->
@@ -153,7 +153,7 @@ export default {
 }
 
 .prenota-button:active {
-  transform: scale(0.95); /* Leggero ridimensionamento al click */
+  transform: scale(0.95); 
 }
 
 /* Menu Burger Css */
@@ -250,8 +250,6 @@ a:hover {
 .list li:hover {
   color: #000;
 }
-
-
 
 a {
   text-decoration: none;

@@ -3,6 +3,8 @@ export default {
   name: "Gallery",
   data() {
     return {
+      
+      //Immagini Database da poter modificare liberamente
       img: [
         'src/img/abbey02.jpg',
         'src/img/abbey_home.jpg',
